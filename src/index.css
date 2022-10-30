@@ -1,13 +1,153 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+ 
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+a{
+  text-decoration: none;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root{
+  
+  margin: 0 auto;
+
+}
+
+.profile{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 44px;
+  height: fit-content;
+}
+.share img{
+  position: absolute;
+  transform: translateY(-50%);
+}
+.share img:nth-child(2){
+  display: none;
+}
+.hide{
+  display: none;
+}
+#profile_img{
+  width: 88px;
+height: 88px;
+border-radius: 44px;
+margin-bottom: 1.5rem;
+}
+.share{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.links-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 90%;
+height: 68px;
+background: #EAECF0;
+margin-top: 1.5rem;
+border: 1px solid #EAECF0;
+border-radius: 8px;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #101828;
+}
+.links:hover{
+  background-color: #d0d5dd;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.socials{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+#slack{
+  margin-right: 1rem;
+}
+
+
+.footer{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 0px;
+margin: 2rem 5%;
+border-top: 0.5px solid rgb(175, 175, 175);
+
+background: #FFFFFF;
+}
+.footer>*{
+  margin-top: 1rem;
+}
+.zuri-logo{
+  width: 9rem;
+}
+.footer p{
+  font-weight: 400;
+  font-size: 14px;
+  color: #667085;
+}
+
+
+@media (min-width:650px){
+  .profile{
+    margin-bottom: 2rem;
+  }
+  .share img{
+    position: absolute;
+    transform: translateX(-15rem);
+  }
+  .share img:nth-child(2){
+    display: block;
+  }
+  .share img:nth-child(1){
+    display: none;
+  }
+ .links{
+  font-size: 18px;
+  width: 80%;
+ }
+ h4{
+  font-size: 20px;
+ }
+.footer{
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer img:nth-child(1){
+  width: 12rem;
+}
+.footer img:nth-child(1){
+  width: 8rem;
+}
+.footer p{
+  font-size: 1rem;
+}
+
 }
