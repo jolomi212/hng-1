@@ -28,7 +28,7 @@ function Links() {
     
     return(
         <div className="links-container">
-              <a href=""  className="links">Twitter Links</a>
+              <a href="https://twitter.com/JolomiAfinotan"  className="links" target="_blank">Twitter Links</a>
             <a href="https://training.zuri.team/" id="btn__zuri" target="_blank" className="links">Zuri Team</a>
             <a href="http://books.zuri.team" id="books" className="links linktip" target="_blank" title='Get Books on Design and Coding from Zuri'>Zuri Books <span className='tooltiptext'>Get Books on Design and Coding from Zuri</span></a>
             <a href="https://books.zuri.team/python-for-beginners?ref_id=jolomisan" target="_blank" id="book__python" title='Buy our Python For Beginners" book' className="links linktip">Python Books <span className='tooltiptext'>Buy our Python For Beginners' book</span></a>
