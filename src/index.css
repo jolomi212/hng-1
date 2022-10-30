@@ -73,6 +73,9 @@ height: 88px;
 border-radius: 44px;
 margin-bottom: 1.5rem;
 }
+h4{
+  font-size: 18px;
+ }
 .share{
   display: flex;
   width: 100%;
@@ -160,7 +163,7 @@ background: #FFFFFF;
   }
   .share img{
     position: absolute;
-    transform: translateX(-15rem);
+    transform: translateX(-10rem);
     align-items: center;
     border: 1px dashed #d0d5dd;
     border-radius: 50%;
@@ -214,4 +217,10 @@ background: #FFFFFF;
   font-size: 1rem;
 }
 
+}
+@media (min-width:950px){
+  .share img{
+    position: absolute;
+    transform: translateX(-15rem);
+  }
 }
