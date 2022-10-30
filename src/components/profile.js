@@ -8,10 +8,11 @@ function Profile(){
         <div className="share">
         <img src={share} alt=""  />
         <img src={share2} alt=""  />
+        <span className="tooltiptext">Share Profile</span>
         </div>
         <img src={pic} alt="" id="profile_img" />
         <h4 id="twitter">Jolomi Afinotan</h4>
-        <h4 id="slack" className="hide"></h4>
+        <h4 id="slack" className="hide">Jolomisan</h4>
     </div>
 
 
