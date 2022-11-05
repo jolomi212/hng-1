@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 import Profile from './components/profile';
 import Links from './components/links';
 import Contact from './pages/contact';
@@ -12,7 +12,7 @@ import { BrowserRouter, HashRouter, Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <div className='container'>
-      <BrowserRouter basename=''>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <section className="content">
           <Routes>
             <Route  path="/" element={<Home/>} />

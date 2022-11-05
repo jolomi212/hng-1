@@ -10,26 +10,26 @@ const Contact = () => {
                 <div className='name_row'>
                     <div>
                         <label>First Name:</label>
-                        <input type="name" placeholder='Enter your first name'/>
+                        <input type="name" placeholder='Enter your first name' required/>
                     </div>
                     <div>
                         <label>Last Name:</label>
-                        <input type="name"placeholder='Enter your last name'/>
+                        <input type="name"placeholder='Enter your last name' required/>
                     </div>
                 </div>
 
                 <div className='row'>
                     <label>Email:</label>
-                    <input type="email" placeholder='yourname@email.com'/>
+                    <input type="email" placeholder='yourname@email.com' required/>
                 </div>
 
                 <div className='row'>
                     <label>Message:</label>
-                    <input type="text" className='message_field' placeholder=""/>
+                    <input type="text" className='message_field' placeholder="" required/>
                 </div>
 
                 <div className='terms'>
-                    <input type="checkbox" />
+                    <input type="checkbox"  required />
                     <p>You agree to providing your data to name who may contact you.</p>
                 </div>
 
