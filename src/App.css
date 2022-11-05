@@ -48,16 +48,13 @@ form .name_row div {
   flex-direction: column;
 }
 
-form .row {
+form .rows {
   display: flex;
   flex-direction: column;
   margin-bottom: 0.5rem;
 }
 
-form .row span{
-  color: #F83F23;
-  font-size: .8rem;
-}
+
 
 form .terms {
   display: flex;
@@ -133,7 +130,7 @@ form div button:hover {
   }
   .terms input{
     width: 20px;
-    border: 1px solid #D0D5DD;
+    border: 1px solid #475467;
     border-radius: 6px;
   }
   .form label{

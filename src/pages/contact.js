@@ -18,12 +18,12 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className='row'>
+                <div className='rows'>
                     <label htmlFor='email'>Email</label>
                     <input type="email" placeholder='yourname@email.com' required id='email'/>
                 </div>
 
-                <div className='row'>
+                <div className='rows'>
                     <label htmlFor='message'>Message</label>
                    <textarea className='message_field' id='message'></textarea>
                 </div>
