@@ -9,22 +9,22 @@ const Contact = () => {
 
                 <div className='name_row'>
                     <div>
-                        <label>First Name:</label>
+                        <label htmlFor='first_name'>First Name</label>
                         <input type="name" placeholder='Enter your first name' required id='first_name'/>
                     </div>
                     <div>
-                        <label>Last Name:</label>
+                        <label htmlFor='last_name'>Last Name</label>
                         <input type="name"placeholder='Enter your last name' id='last_name' required/>
                     </div>
                 </div>
 
                 <div className='row'>
-                    <label>Email:</label>
+                    <label htmlFor='email'>Email</label>
                     <input type="email" placeholder='yourname@email.com' required id='email'/>
                 </div>
 
                 <div className='row'>
-                    <label>Message:</label>
+                    <label htmlFor='message'>Message</label>
                    <textarea className='message_field' id='message'></textarea>
                 </div>
 
