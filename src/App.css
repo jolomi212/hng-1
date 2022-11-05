@@ -9,11 +9,16 @@
 
 /* CONTACT FORM*/
 .form_container {
-  width: 70%;
+  width: 60%;
   margin: auto;
   line-height: 2;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
-
+.form{
+  width: 80%;
+  margin: auto;
+}
 form h2 {
   color: #101828;
   font-weight: 600;
@@ -70,9 +75,18 @@ form input {
   color: #344054;
 }
 
-form input.message_field {
+.message_field {
+  outline: none;
+  background: transparent;
+  border: 1px solid #d0d5dd;
+  padding: 5px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  padding-left: 10px;
+  color: #344054;
   height: 120px;
   justify-content: start;
+
 }
 
 form label {
@@ -97,32 +111,7 @@ form div button:hover {
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #d1e9ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media (min-width:650px){
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
