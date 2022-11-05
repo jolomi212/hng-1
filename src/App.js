@@ -6,13 +6,13 @@ import Contact from './pages/contact';
 import Footer from './components/footer';
 import Home from './pages/home';
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, HashRouter, Routes, Route } from 'react-router-dom'
 
 
 function App() {
   return (
     <div className='container'>
-      <BrowserRouter>
+      <BrowserRouter basename=''>
         <section className="content">
           <Routes>
             <Route  path="/" element={<Home/>} />
