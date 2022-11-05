@@ -15,8 +15,8 @@ function App() {
       <BrowserRouter>
         <section className="content">
           <Routes>
-            <Route  index element={<Home/>} />
-            <Route path="contact" element={<Contact/>} />
+            <Route  path="/" element={<Home/>} />
+            <Route path="/contact" element={<Contact/>} />
           </Routes>
         </section>
       </BrowserRouter>

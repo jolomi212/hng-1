@@ -34,6 +34,7 @@ function Links() {
             <a href="https://books.zuri.team/python-for-beginners?ref_id=jolomisan" target="_blank" id="book__python" title='Buy our Python For Beginners" book' className="links linktip">Python Books <span className='tooltiptext'>Buy our Python For Beginners' book</span></a>
             <a href="https://background.zuri.team" id="pitch" target="_blank" title='Our Background Checks Service is bound to fulfil your expectations' className="links linktip">Background Checks for Coders <span className='tooltiptext'>Our Background Checks Service is bound to fulfil your expectations</span></a>
             <a href="https://books.zuri.team/design-rules " id="book__design" target="_blank" className="links linktip" title='Get our Design Books'> Design Books <span className='tooltiptext'>Get our Design Books</span></a>
+            <a href="/contact" id=""  className="links linktip" title='Contact Us'> Contact Us <span className='tooltiptext'>Contact Us</span></a>
 
         <div className="socials">
             <a href=""><img src={slack} alt="" id="slack"/></a>
