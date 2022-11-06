@@ -36,10 +36,11 @@ function Links() {
             <a href="https://background.zuri.team" id="pitch" target="_blank" title='Our Background Checks Service is bound to fulfil your expectations' className="links linktip">Background Checks for Coders <span className='tooltiptext'>Our Background Checks Service is bound to fulfil your expectations</span></a>
             <a href="https://books.zuri.team/design-rules " id="book__design" target="_blank" className="links linktip" title='Get our Design Books'> Design Books <span className='tooltiptext'>Get our Design Books</span></a>
            
-            <Link to="/contact" className='links linktip'>
-                       Contact Me
-                       <span className='tooltiptext'>Contact Us</span>
+            <Link to="/contact" className='links linktip' id='contact'>
+                       Contact Us
+                       <span className='tooltiptext'>Contact Me</span>
                     </Link>
+
 
         <div className="socials">
             <a href=""><img src={slack} alt="" id="slack"/></a>
